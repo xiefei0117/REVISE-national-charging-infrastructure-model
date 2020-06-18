@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/Users/f6x/Desktop/Java/REVISE.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/REVISE/REVISE.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="true"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=REVISE/src&lt;application{Main.java[Main" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <file path="/REVISE/build.fxbuild"/>
+        <javaElement handleIdentifier="=REVISE/src"/>
+        <file path="/REVISE/.project"/>
+        <file path="/REVISE/.classpath"/>
+    </selectedElements>
+</jardesc>

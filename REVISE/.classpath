@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="lib" path="C:/Users/f6x/Desktop/Java/REVISE/lib/jfoenix-8.0.8.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

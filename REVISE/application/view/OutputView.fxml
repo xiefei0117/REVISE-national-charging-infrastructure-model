@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #1c313a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.OutputController">
+   <children>
+      <Label alignment="CENTER_RIGHT" layoutX="428.0" layoutY="13.0" prefHeight="53.0" prefWidth="232.0" text="Setup" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnReturn" layoutX="24.0" layoutY="14.0" prefHeight="50.0" prefWidth="112.0" style="-fx-background-color: #708690; -fx-background-radius: 100;" text="Return" textFill="WHITE">
+         <graphic>
+            <ImageView fx:id="imageBack" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></JFXButton>
+      <AnchorPane layoutX="24.0" layoutY="72.0" prefHeight="304.0" prefWidth="642.0" style="-fx-background-color: #718792; -fx-background-radius: 15;">
+         <children>
+            <AnchorPane layoutY="7.0" prefHeight="33.0" prefWidth="296.0" style="-fx-background-color: #455a64; -fx-background-radius: 5;">
+               <children>
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="2.0" prefHeight="33.0" prefWidth="647.0" text="Algorithm and Output Configuration" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="359.0" layoutY="117.0" prefHeight="50.0" prefWidth="203.0" text="Outputs in charging infrastructure layouts" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXToggleButton fx:id="toggleInfrastructureOutput" layoutX="549.0" layoutY="113.0" prefHeight="58.0" prefWidth="112.0" selected="true" text="yes" textFill="WHITE" toggleColor="#1c313a" toggleLineColor="#455a64">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXToggleButton>
+            <Label layoutX="358.0" layoutY="184.0" prefHeight="50.0" prefWidth="191.0" text="Ouputs in summary results of energy and cost " textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXToggleButton fx:id="toggleSummaryOutput" layoutX="549.0" layoutY="180.0" prefHeight="58.0" prefWidth="112.0" selected="true" text="yes" textFill="WHITE" toggleColor="#1c313a" toggleLineColor="#455a64">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXToggleButton>
+            <Label layoutX="9.0" layoutY="43.0" prefHeight="50.0" prefWidth="232.0" text="Time limit (secs):" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtTimeLimit" alignment="CENTER" focusColor="#7aff05" layoutX="165.0" layoutY="55.0" prefHeight="25.0" prefWidth="127.0" style="-fx-background-color: #fff;" text="108000" />
+            <Label layoutX="9.0" layoutY="92.0" prefHeight="50.0" prefWidth="191.0" text="Number of threads:" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="358.0" layoutY="55.0" prefHeight="50.0" prefWidth="191.0" text="Enforce tournament before crossover?" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXComboBox fx:id="comboNumThreads" layoutX="165.0" layoutY="105.0" prefHeight="25.0" prefWidth="127.0" />
+            <JFXToggleButton fx:id="toggleTournament" layoutX="549.0" layoutY="51.0" prefHeight="58.0" prefWidth="112.0" text="No" textFill="WHITE" toggleColor="#1c313a" toggleLineColor="#455a64">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </JFXToggleButton>
+            <Label layoutX="9.0" layoutY="146.0" prefHeight="50.0" prefWidth="181.0" text="Number of genes:" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtNumGenes" alignment="CENTER" focusColor="#7aff05" layoutX="165.0" layoutY="159.0" prefHeight="25.0" prefWidth="127.0" style="-fx-background-color: #fff;" text="100" />
+            <Label layoutX="9.0" layoutY="209.0" prefHeight="50.0" prefWidth="191.0" text="Random seed:" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtRandomSeed" alignment="CENTER" focusColor="#7aff05" layoutX="165.0" layoutY="221.0" prefHeight="25.0" prefWidth="127.0" style="-fx-background-color: #fff;" />
+            <JFXCheckBox fx:id="checkRandomSeedChoose" layoutX="161.0" layoutY="252.0" prefHeight="50.0" prefWidth="135.0" text="Check if use time as random seed" textFill="WHITE" wrapText="true" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
