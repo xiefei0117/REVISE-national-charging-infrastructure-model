@@ -4,7 +4,7 @@ A pool of 100 genes are initialized
 Key configurations of model:
     Scenario setup and configuration: 
         Scenario name: Base
-        GA algorithm random seed: 1576875860028
+        GA algorithm random seed: 1606333645736
         GA algorithm time limit (secs): 10800.0
         GA genes population pool size: 100
         Gene length: 4301
@@ -18,7 +18,7 @@ Key configurations of model:
         Plug cost per time stage ($/plug/5yrs): 35594.375681841164
         Public charging cost ($/kWh): 0.59
         Gasoline fuel cost ($/gallon): 2.42
-        Charger design waiting time threshold (mins): 0.0
+        Charger design waiting time threshold (mins): 10.0
         Charger design service probability threshold: 0.95
         Charger design service hours per day: 18.0
         Average charger service rate (hrs/charging session): 0.28
@@ -50,6 +50,19 @@ Key configurations of model:
 8 threads are used for calculation.
 
 GA algorithm starts......
-Iter. - 1, Time Elaspsed: 0s, Obj. Value: 2413832587, Incr. Change: 0%, Total Change: 0%
-Iter. - 77, Time Elaspsed: 5s, Obj. Value: 2176221370, Incr. Change: -9.84%, Total Change: -9.84%
+Iter. - 1, Time Elaspsed: 0s, Obj. Value: 2053546316, Incr. Change: 0%, Total Change: 0%
+Iter. - 75, Time Elaspsed: 5s, Obj. Value: 1825906135, Incr. Change: -11.09%, Total Change: -11.09%
+Iter. - 147, Time Elaspsed: 10s, Obj. Value: 1756381507, Incr. Change: -3.81%, Total Change: -14.47%
+Iter. - 213, Time Elaspsed: 15s, Obj. Value: 1756381507, Incr. Change: 0%, Total Change: -14.47%
+Iter. - 276, Time Elaspsed: 20s, Obj. Value: 1756381507, Incr. Change: 0%, Total Change: -14.47%
+Iter. - 336, Time Elaspsed: 25s, Obj. Value: 1756381507, Incr. Change: 0%, Total Change: -14.47%
+Iter. - 393, Time Elaspsed: 30s, Obj. Value: 1756381507, Incr. Change: 0%, Total Change: -14.47%
+Iter. - 447, Time Elaspsed: 35s, Obj. Value: 1756381507, Incr. Change: 0%, Total Change: -14.47%
+Iter. - 501, Time Elaspsed: 40s, Obj. Value: 1754737759, Incr. Change: -0.09%, Total Change: -14.55%
+Iter. - 555, Time Elaspsed: 46s, Obj. Value: 1754737759, Incr. Change: 0%, Total Change: -14.55%
+Iter. - 607, Time Elaspsed: 51s, Obj. Value: 1754737759, Incr. Change: 0%, Total Change: -14.55%
+Iter. - 658, Time Elaspsed: 56s, Obj. Value: 1754737759, Incr. Change: 0%, Total Change: -14.55%
+Iter. - 709, Time Elaspsed: 61s, Obj. Value: 1754737759, Incr. Change: 0%, Total Change: -14.55%
+Iter. - 760, Time Elaspsed: 66s, Obj. Value: 1749578041, Incr. Change: -0.29%, Total Change: -14.8%
+Iter. - 809, Time Elaspsed: 71s, Obj. Value: 1749456090, Incr. Change: -0.01%, Total Change: -14.81%
 printing results......
