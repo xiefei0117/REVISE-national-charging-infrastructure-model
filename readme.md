@@ -6,4 +6,6 @@ The Regional Electric Vehicle Infrastructure Strategic Evolution (REVISE) is a c
   * How much capacity (number of plugs) for each station?
   * Who will use the systems, and who will not?
   * What are energy and environmental impacts?
+  
+![GitHub Logo](/image/framework.jpg)
  
