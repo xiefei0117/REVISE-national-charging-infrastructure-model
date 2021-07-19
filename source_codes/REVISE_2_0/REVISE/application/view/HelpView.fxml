@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #1c313a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.HelpController">
+   <children>
+      <Label alignment="CENTER_RIGHT" layoutX="428.0" layoutY="13.0" prefHeight="53.0" prefWidth="232.0" text="Help" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnReturn" layoutX="24.0" layoutY="14.0" prefHeight="50.0" prefWidth="112.0" style="-fx-background-color: #708690; -fx-background-radius: 100;" text="Return" textFill="WHITE">
+         <graphic>
+            <ImageView fx:id="imageBack" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></JFXButton>
+      <AnchorPane layoutX="24.0" layoutY="72.0" prefHeight="304.0" prefWidth="642.0" style="-fx-background-color: #718792; -fx-background-radius: 15;">
+         <children>
+            <AnchorPane layoutY="7.0" prefHeight="33.0" prefWidth="296.0" style="-fx-background-color: #455a64; -fx-background-radius: 5;">
+               <children>
+                  <Label alignment="CENTER" layoutX="14.0" layoutY="2.0" prefHeight="33.0" prefWidth="647.0" text="Help" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="6.0" layoutY="42.0" prefHeight="50.0" prefWidth="654.0" text="For comments and questions on the REVISE 2.0 model, please contact:" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="120.0" prefHeight="50.0" prefWidth="587.0" text="REVISE 2.0 is a model within TEEM portfolio at ORNL, see more details:" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="226.0" layoutY="80.0" prefHeight="50.0" prefWidth="197.0" text="Fei Xie, xief@ornl.gov Zhenhong Lin, linz@ornl.gov" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="226.0" layoutY="152.0" prefHeight="50.0" prefWidth="197.0" text="teem.ornl.gov" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="188.0" prefHeight="50.0" prefWidth="587.0" text="Technical papers related to REVISE 2.0 development:" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="225.0" prefHeight="69.0" prefWidth="611.0" text="Xie, F., Liu, C., Li, S., Lin, Z., &amp; Huang, Y. (2018). Long-term strategic planning of inter-city fast charging infrastructure for battery electric vehicles. Transportation Research Part E: Logistics and Transportation Review, 109, 261-276. doi:https://doi.org/10.1016/j.tre.2017.11.014" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

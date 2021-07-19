@@ -27,8 +27,9 @@ The evolution of REVISE model is shown in the following chart. It is initially d
 
 ![GitHub Logo](/image/evolution.jpg)
 
-## Authors 
+## Contributors 
 - Fei Xie <xief@ornl.gov>
+- Ross Wang <cwang@ornl.gov>
 - Zhenhong Lin <linz@ornl.gov>
 
 ## Contact 

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #1c313a;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.InfrastructureController">
+   <children>
+      <JFXButton layoutX="72.0" layoutY="27.0" />
+      <Label layoutX="538.0" layoutY="12.0" text="Station" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="24.0" layoutY="72.0" prefHeight="304.0" prefWidth="296.0" style="-fx-background-color: #718792; -fx-background-radius: 15;">
+         <children>
+            <AnchorPane layoutY="7.0" prefHeight="33.0" prefWidth="296.0" style="-fx-background-color: #455a64; -fx-background-radius: 5;">
+               <children>
+                  <Label alignment="CENTER" layoutY="7.0" prefHeight="33.0" prefWidth="296.0" text="Charging Station Related" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <JFXTextField fx:id="txtPlugCost" alignment="CENTER" focusColor="#7aff05" layoutX="152.0" layoutY="98.0" prefHeight="25.0" prefWidth="121.0" style="-fx-background-color: #fff;" text="50000" />
+            <Label layoutX="8.0" layoutY="94.0" prefHeight="33.0" prefWidth="142.0" text="Cost per Plug ($):" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="136.0" prefHeight="33.0" prefWidth="142.0" text="Charging Power (KW):" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtChargingPower" alignment="CENTER" focusColor="#7aff05" layoutX="152.0" layoutY="140.0" prefHeight="25.0" prefWidth="121.0" style="-fx-background-color: #fff;" text="150" />
+            <Label layoutX="8.0" layoutY="179.0" prefHeight="33.0" prefWidth="142.0" text="Plug Lifespan (year):" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtPlugLifespan" alignment="CENTER" focusColor="#7aff05" layoutX="152.0" layoutY="183.0" prefHeight="25.0" prefWidth="121.0" style="-fx-background-color: #fff;" text="10" />
+            <Label layoutX="8.0" layoutY="221.0" prefHeight="33.0" prefWidth="142.0" text="Discount Rate (%):" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtDiscountRate" alignment="CENTER" focusColor="#7aff05" layoutX="152.0" layoutY="225.0" prefHeight="25.0" prefWidth="121.0" style="-fx-background-color: #fff;" text="7" />
+            <Label layoutX="8.0" layoutY="264.0" prefHeight="33.0" prefWidth="155.0" text="Charging Cost ($/KWh):" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtChargingCost" alignment="CENTER" focusColor="#7aff05" layoutX="167.0" layoutY="268.0" prefHeight="25.0" prefWidth="106.0" style="-fx-background-color: #fff;" text="0.59" />
+            <JFXTextField fx:id="txtStationCost" alignment="CENTER" focusColor="#7aff05" layoutX="152.0" layoutY="58.0" prefHeight="25.0" prefWidth="121.0" style="-fx-background-color: #fff;" text="0" />
+            <Label layoutX="8.0" layoutY="54.0" prefHeight="33.0" prefWidth="142.0" text="Station Cost ($/yr):" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="364.0" layoutY="72.0" prefHeight="109.0" prefWidth="296.0" style="-fx-background-color: #718792; -fx-background-radius: 15;">
+         <children>
+            <AnchorPane layoutY="7.0" prefHeight="33.0" prefWidth="296.0" style="-fx-background-color: #455a64; -fx-background-radius: 5;">
+               <children>
+                  <Label alignment="CENTER" layoutY="7.0" prefHeight="33.0" prefWidth="296.0" text="Gasoline Station Related" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <JFXTextField fx:id="txtGasolinePrice" alignment="CENTER" focusColor="#7aff05" layoutX="184.0" layoutY="57.0" prefHeight="25.0" prefWidth="90.0" style="-fx-background-color: #fff;" text="2.42" />
+            <Label layoutX="9.0" layoutY="53.0" prefHeight="33.0" prefWidth="163.0" text="Gasoline Price ($/gallon):" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="364.0" layoutY="200.0" prefHeight="175.0" prefWidth="296.0" style="-fx-background-color: #718792; -fx-background-radius: 15;">
+         <children>
+            <AnchorPane layoutY="7.0" prefHeight="33.0" prefWidth="296.0" style="-fx-background-color: #455a64; -fx-background-radius: 5;">
+               <children>
+                  <Label alignment="CENTER" layoutY="7.0" prefHeight="33.0" prefWidth="296.0" text="Charging Design Level of Service" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <JFXTextField fx:id="txtWaitingTime" alignment="CENTER" focusColor="#7aff05" layoutX="193.0" layoutY="57.0" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #fff;" text="10" />
+            <Label layoutX="9.0" layoutY="53.0" prefHeight="33.0" prefWidth="178.0" text="Waiting Time Criteria (mins):" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="86.0" prefHeight="33.0" prefWidth="178.0" text="Probability Threshold (%):" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="txtProbabilityThreshold" alignment="CENTER" focusColor="#7aff05" layoutX="193.0" layoutY="90.0" prefHeight="25.0" prefWidth="81.0" style="-fx-background-color: #fff;" text="95" />
+            <Label fx:id="labelLOSExplanation" alignment="TOP_LEFT" layoutX="9.0" layoutY="119.0" prefHeight="53.0" prefWidth="276.0" text="Explanation" textFill="WHITE" wrapText="true" />
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="btnReturn" layoutX="24.0" layoutY="14.0" prefHeight="50.0" prefWidth="112.0" style="-fx-background-color: #708690; -fx-background-radius: 100;" text="Return" textFill="WHITE">
+         <graphic>
+            <ImageView fx:id="imageBack" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font></JFXButton>
+   </children>
+</AnchorPane>
