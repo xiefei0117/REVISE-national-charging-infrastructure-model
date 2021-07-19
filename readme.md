@@ -36,6 +36,6 @@ The evolution of REVISE model is shown in the following chart. It is initially d
 If you have any questions on using this model, please contact Fei Xie at <xief@ornl.gov>
 
 ## Reference
-Xie, F., & Lin, Z. (2021). Integrated U.S. nationwide corridor charging infrastructure planning for mass electrification of inter-city trips. Applied Energy, 298, 117142. doi:https://doi.org/10.1016/j.apenergy.2021.117142
-Xie, F., Liu, C., Li, S., Lin, Z., & Huang, Y. (2018). Long-term strategic planning of inter-city fast charging infrastructure for battery electric vehicles. Transportation Research Part E: Logistics and Transportation Review, 109, 261-276. doi:https://doi.org/10.1016/j.tre.2017.11.014
+  * Xie, F., & Lin, Z. (2021). Integrated U.S. nationwide corridor charging infrastructure planning for mass electrification of inter-city trips. Applied Energy, 298, 117142. doi:https://doi.org/10.1016/j.apenergy.2021.117142
+  * Xie, F., Liu, C., Li, S., Lin, Z., & Huang, Y. (2018). Long-term strategic planning of inter-city fast charging infrastructure for battery electric vehicles. Transportation Research Part E: Logistics and Transportation Review, 109, 261-276. doi:https://doi.org/10.1016/j.tre.2017.11.014
  
