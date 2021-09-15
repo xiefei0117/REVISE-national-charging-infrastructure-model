@@ -62,9 +62,8 @@ By downloading the REVISE program from the [compiled_software](/compiled_softwar
   * Windows users: double click "run.bat" file
   * Mac users: double click "REVISE.jar" file
   * Linux users: in terminal, type:
-
-
-	$ java -jar REVISE.jar
+  
+		$ java -jar REVISE.jar
  
 
 
