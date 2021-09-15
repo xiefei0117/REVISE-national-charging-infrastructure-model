@@ -59,9 +59,9 @@ For downloading installation files and the installation, users could refer to ht
 
 By downloading the REVISE program from the [compiled_software](/compiled_software/REVISE_2_0/) folder, users could run the program with the following ways:
 
-	* Windows users: double click "run.bat" file
-	* Mac users: double click "REVISE.jar" file
-	* Linux users: in terminal, type:
+  * Windows users: double click "run.bat" file
+  * Mac users: double click "REVISE.jar" file
+  * Linux users: in terminal, type:
 	
 	$ java -jar REVISE.jar
  
