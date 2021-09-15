@@ -33,14 +33,19 @@ The evolution of REVISE model is shown in the following chart. It is initially d
 
 To use the REVISE in the local machine, Java Runtime Environment (JRE) needs to be pre-installed to run the program. Below are instructions on JRE installation.
 
-### Linux (Ubuntu 18.04):
+### Linux (Ubuntu 18.04) - Installation in terminal:
 
 First to update the package:
 
 	$ sudo apt update
 	
+Then check if java is installed:
 
-check if java is installed
+	$ java -version
+	
+If java is not installed, then there will be output showing "Command 'java' not found, ...", then install JRE as follows:
+
+
 
 
 
