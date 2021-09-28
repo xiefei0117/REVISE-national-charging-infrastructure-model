@@ -72,7 +72,6 @@ By downloading the REVISE program from the [compiled_software](/compiled_softwar
 
 ## Contributors 
 - Fei Xie <xief@ornl.gov>
-- Ross Wang <cwang@ornl.gov>
 - Zhenhong Lin <linz@ornl.gov>
 
 ## Contact 
