@@ -70,12 +70,15 @@ By downloading the REVISE program from the [compiled_software](/compiled_softwar
 
 
 
-## Contributors 
-- Fei Xie <xief@ornl.gov>
-- Zhenhong Lin <linz@ornl.gov>
+## Contributors (REVISE 1.0 and 2.0)
+- Fei Xie 
+- Shengyin Li
+- Yongxi Huang
+- Changzheng Liu
+- Zhenhong Lin 
 
 ## Contact 
-If you have any questions on using this model, please contact Fei Xie at <xief@ornl.gov>
+If you have any questions on using this model, please contact Fei Xie at <xiefei0117@gmail.com>
 
 ## Reference
   * Xie, F., & Lin, Z. (2021). Integrated U.S. nationwide corridor charging infrastructure planning for mass electrification of inter-city trips. Applied Energy, 298, 117142. doi:https://doi.org/10.1016/j.apenergy.2021.117142
